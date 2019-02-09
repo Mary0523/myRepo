@@ -27,6 +27,11 @@ volcData <- data.frame(volcano, location, elevation, eruption)
 ```
 
 Create a bar chart to display the elevation of each volcano. 
+```{r}
+with(volcData,plot(x=volcano, y=elevation))
+```
+
+
 
 ```{r}
 library(ggplot2)
